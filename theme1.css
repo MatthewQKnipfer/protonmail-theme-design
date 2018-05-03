@@ -1,0 +1,151 @@
+/* ProtonMail */
+/* THEME 1 */
+
+body { font-size: 14px }
+
+body,
+.pm_opensans {
+    font-family: 'Lucida Grande', Verdana, Arial, sans-serif
+}
+
+/* UI Elements */
+
+.pm_buttons,
+.pm_button,
+.pm_toggle span.knob {
+    border-color: #999;
+}
+
+.pm_button {
+    background-image: -webkit-linear-gradient(#fff, #ddd);
+    background-image: linear-gradient(#fff, #ddd);
+    background: -moz-linear-gradient(#fff, #ddd)
+}
+
+.pm_button:active {
+    box-shadow: inset 0 0 2rem rgba(0,0,0,.1) ;
+}
+
+.pm_button.primary {
+    background: #7575a3;
+    background-image: -webkit-linear-gradient(#7575a3, #669);
+    background-image: linear-gradient(#7575a3, #669);
+}
+
+.pm_button.success {
+    background: #93bf73;
+    background-image: -webkit-linear-gradient(#93bf73, #aecf96);
+    background-image: linear-gradient(#93bf73, #aecf96)
+}
+
+.pm_button.error {
+    background: #c26164;
+    background-image: -webkit-linear-gradient(#c26164, #ad4346);
+    background-image: linear-gradient(#c26164, #ad4346);
+    color: #fff ;
+    border-color: #ad4346;
+}
+
+.pm_button.primary,
+.pm_button.success {
+    text-shadow: none;
+    color: #fff;
+    border-color: transparent
+}
+
+.pm_button.link,
+.pm_button.primary,
+.pm_button.success {
+    border-color: transparent
+}
+
+.pm_button.link {
+    background-color: transparent;
+    color: #8286c5;
+    text-decoration: underline;
+    box-shadow: none;
+    background-image: none;
+}
+
+.pm_button,
+.pm_buttons :not(.pm_dropdown) a,
+.pm_buttons :not(.pm_dropdown) button {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1), inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+.pm_buttons a {
+    background-image: -webkit-linear-gradient(#fff, #ddd);
+    background-image: linear-gradient(#fff, #ddd);
+    background: -moz-linear-gradient(#fff, #ddd)
+}
+
+.pm_buttons a.active,
+.pm_buttons button.active,
+.pm_buttons a:active,
+.pm_buttons button:active,
+.navigation-link:active,
+.navigation-link.active {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1), inset 0 1px 0 rgba(255, 255, 255, .1), inset 0 2px 2px 0 rgba(0,0,0,.2), inset 0 0 2rem rgba(0,0,0,.1)
+}
+
+.pm_buttons .pm_dropdown a {
+    background: none;
+}
+
+.pm_table th { color: #555 }
+
+.pm_toggle { box-shadow: 0 0 0 1px #999 }
+
+.pm_toggle.off .on,
+.pm_toggle.off .off,
+.pm_toggle.on .on,
+.pm_toggle.on .off {
+    opacity: 1;
+}
+
+
+/* Layout */
+
+.sidebarApp-container,
+.mobileMode .sidebarApp-container,
+body .headerDesktop-logo,
+.composerHeader-container { background: #333 }
+
+.search-form-fieldset,
+.searchForm-action-button-toggle:hover,
+.searchForm-action-button-advanced:hover { background-color: rgba(0,0,0,0.2) }
+
+.headerDesktop-container { background: #555 }
+
+.composer-container {
+    box-shadow: none !important;
+    border: 1px solid #333;
+}
+
+/* Mobile */
+
+#pm_header-mobile { background: #555 }
+
+
+/* Conversations */
+#conversation-list-rows .conversation.active,
+#conversation-list-columns .conversation.active {
+    background: #555;
+}
+
+.conversation.read .pm_labels label { box-shadow: 0.25rem 0 0 0.25rem #ddd }
+.conversation.active .pm_labels label {
+    box-shadow: 0.25rem 0 0 0.25rem #555;
+    background: #555;
+}
+
+#conversation-list-rows .conversation { border-color: #999 }
+
+
+/* VPN Dash */
+.vpnRow-add, .vpnRow-add:hover {
+    background-image: -webkit-linear-gradient(#bbe5a5, #a6cc93) !important;
+    background-image: linear-gradient(#bbe5a5, #a6cc93) !important;
+    background: -moz-linear-gradient(#bbe5a5, #a6cc93) !important;
+    color: #FFF;
+}
