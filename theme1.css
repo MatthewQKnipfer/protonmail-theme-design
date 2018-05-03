@@ -1,11 +1,16 @@
 /* ProtonMail */
 /* THEME 1 */
 
-body { font-size: 14px }
+/* Link to Google Font 'Lato' repository */
+@import url('https://fonts.googleapis.com/css?family=Muli')
+
+body {
+  font-size: 13px;
+}
 
 body,
 .pm_opensans {
-    font-family: 'Lucida Grande', Verdana, Arial, sans-serif
+    font-family: 'Muli', Verdana, Arial, sans-serif;
 }
 
 /* UI Elements */
@@ -119,7 +124,8 @@ body .headerDesktop-logo,
 
 .composer-container {
     box-shadow: none !important;
-    border: 1px solid #333;
+    border: 8px solid #333;
+    border-radius: 5px;
 }
 
 /* Mobile */
