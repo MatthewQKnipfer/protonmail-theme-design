@@ -4,6 +4,12 @@
 /* Link to Google Font 'Lato' repository */
 @import url('https://fonts.googleapis.com/css?family=Muli')
 
+* {
+  border-color: transparent;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
 body {
   font-size: 13px;
 }
@@ -18,13 +24,13 @@ body,
 .pm_buttons,
 .pm_button,
 .pm_toggle span.knob {
-    border-color: #999;
+    border-color: #ddd;
 }
 
 .pm_button {
-    background-image: -webkit-linear-gradient(#fff, #ddd);
-    background-image: linear-gradient(#fff, #ddd);
-    background: -moz-linear-gradient(#fff, #ddd)
+    background-image: -webkit-linear-gradient(#ddd, #ddd);
+    background-image: linear-gradient(#ddd, #ddd);
+    background: -moz-linear-gradient(#ddd, #ddd)
 }
 
 .pm_button:active {
@@ -32,9 +38,9 @@ body,
 }
 
 .pm_button.primary {
-    background: #7575a3;
-    background-image: -webkit-linear-gradient(#7575a3, #669);
-    background-image: linear-gradient(#7575a3, #669);
+    background: #345182;
+    background-image: -webkit-linear-gradient(#345182, #2a4470);
+    background-image: linear-gradient(#345182, #2a4470);
 }
 
 .pm_button.success {
@@ -54,19 +60,19 @@ body,
 .pm_button.primary,
 .pm_button.success {
     text-shadow: none;
-    color: #fff;
-    border-color: transparent
+    color: #999;
+    border-color: transparent;
 }
 
 .pm_button.link,
 .pm_button.primary,
 .pm_button.success {
-    border-color: transparent
+    border-color: transparent;
 }
 
 .pm_button.link {
     background-color: transparent;
-    color: #8286c5;
+    color: #4f6a96;
     text-decoration: underline;
     box-shadow: none;
     background-image: none;
@@ -79,9 +85,9 @@ body,
 }
 
 .pm_buttons a {
-    background-image: -webkit-linear-gradient(#fff, #ddd);
-    background-image: linear-gradient(#fff, #ddd);
-    background: -moz-linear-gradient(#fff, #ddd)
+    background-image: -webkit-linear-gradient(#ddd, #ddd);
+    background-image: linear-gradient(#ddd, #ddd);
+    background: -moz-linear-gradient(#ddd, #ddd)
 }
 
 .pm_buttons a.active,
@@ -124,8 +130,8 @@ body .headerDesktop-logo,
 
 .composer-container {
     box-shadow: none !important;
-    border: 8px solid #333;
-    border-radius: 5px;
+    border: 6px solid #333;
+    border-radius: 25px;
 }
 
 /* Mobile */
@@ -145,7 +151,9 @@ body .headerDesktop-logo,
     background: #555;
 }
 
-#conversation-list-rows .conversation { border-color: #999 }
+#conversation-list-rows .conversation {
+  border-color: transparent;
+}
 
 
 /* VPN Dash */
